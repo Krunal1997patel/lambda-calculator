@@ -1,3 +1,6 @@
+html{
+    font-size: 62%;
+}
 .container {
     background-color: #c00025;
     width: 100%;
@@ -5,6 +8,7 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    padding: 2%;
 }
 .display {
     margin-top: 25px;
@@ -18,5 +22,36 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
-    font-size: 5.0rem;
-  }
+    font-size: 8.0rem;
+}
+
+.allButton{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    color: white;
+    padding: 5%;
+    border: 1px black solid;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin: 2%;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px black;
+    cursor: pointer;
+}
+
+.number{
+    background-color: #113c78;
+}
+
+.operator{
+    background-color: #3db5e5;
+}
+
+.special{
+    background-color: #2061b0;
+}
+

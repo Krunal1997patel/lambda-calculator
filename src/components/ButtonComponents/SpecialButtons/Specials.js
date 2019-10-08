@@ -8,7 +8,7 @@ import SpecialButton from './SpecialButton'
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
-  const [specialButton, setSpecialButton] = useState(specials);
+  const [specialButton] = useState(specials);
 
   return (
     <div>
